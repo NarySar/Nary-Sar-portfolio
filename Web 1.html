@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chansovannary Sar - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h1>Welcome to My Personal Website</h1>
+        <p>Hello everyone! My name is Chansovannary Sar(Nary),
+            I am a recent graduate of the University of Massachusetts Boston with a BA in Computer Science. My technical expertise includes Python, C/C++, Java, JavaScript, TypeScript, HTML5, Rust, and SQL, and I have hands-on experience developing web and mobile applications using React.js, React Native, WebGL, and more. I’ve completed several full-stack projects, including a Wordle clone mobile app and a full-stack banking application. I am passionate about creating innovative solutions and excited to grow my skills in software development.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I'm from Boston, Massachusetts. I am a Computer Science graduated student with a concentration in Software developers create the computer applications that allow users to do specific tasks and the underlying systems that run the devices or control networks. I enjoy reading, listening to music, and watching Star Wars.</p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <h3>Technical Projects</h3>
+        <div class="portfolio-item">
+            <h3>Wordle App</h3>
+            <p>Description: </p>
+                <p>• Used React Native iOS/Android full-stack mobile app, a clone of the Wordle game.</p>
+                <p>• Implemented user input for guessing a random 5-letter word.</p>
+                <p>• Stored words and player data using Node.js to a MongoDB database.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Brick Out Game</h3>
+            <p>Description:
+                <P>• JavaScript/WebGL game inspired by Brick Out.</P>
+                <P> • Utilized WebGL for rendering and updating game components like paddles, balls, and bricks.</P>
+        </div>
+        <div class="portfolio-item">
+            <h3>Rummy Card Game</h3>
+            <p>Description:
+                <P>• Java backend service group project for a multiplayer web app Rummy game.</P>
+                <P>• Developed components for game logic and player behavior.</P>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Chansovannary Sar. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
